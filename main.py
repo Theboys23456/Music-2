@@ -11,10 +11,10 @@ from pytgcalls.types.stream import StreamAudioEnded
 from player import Player
 from ytdl import get_audio_source
 
-API_ID = int(os.getenv("API_ID", "0"))
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-OWNER_ID = int(os.getenv("OWNER_ID", "0"))  # optional: for admin-only commands
+API_ID = int(os.getenv("API_ID", "29223018"))
+API_HASH = os.getenv("API_HASH", "25b493c4989d22d7f2482f752d3d99ee")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7897474464:AAFWfrC39t0dIG9_wdzJgvmUiBUHBIc3NXQ")
+OWNER_ID = int(os.getenv("OWNER_ID", "8167879352"))  # optional: for admin-only commands
 
 app = Client("vc-music-bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 pytg = PyTgCalls(app)
